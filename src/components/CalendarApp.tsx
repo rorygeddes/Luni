@@ -101,7 +101,7 @@ export default function CalendarApp() {
       {/* Today's Schedule */}
       <div className="px-4 py-4">
         <div className="flex justify-between items-center mb-3">
-          <h3 className="font-medium text-gray-800">Today's Schedule</h3>
+          <h3 className="font-medium text-gray-800">Today&apos;s Schedule</h3>
           <button className="text-xs text-blue-600" aria-label="View all events">View All</button>
         </div>
         

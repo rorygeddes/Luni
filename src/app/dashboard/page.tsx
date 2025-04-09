@@ -51,7 +51,7 @@ export default function Dashboard() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.5 }}
           >
-            We're working hard to bring you the ultimate student budgeting dashboard. 
+            We&apos;re working hard to bring you the ultimate student budgeting dashboard. 
             Sign up for early access and be the first to try our beta version.
           </motion.p>
           
@@ -90,7 +90,7 @@ export default function Dashboard() {
                 </svg>
               </div>
               <h3 className="text-lg font-bold text-white mb-2">Coming in May 2023</h3>
-              <p className="text-gray-400">We're working around the clock to launch the beta version next month.</p>
+              <p className="text-gray-400">We&apos;re working around the clock to launch the beta version next month.</p>
             </div>
             
             <div className="bg-slate-900/50 backdrop-blur-lg p-6 rounded-xl border border-white/10 max-w-xs">

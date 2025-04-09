@@ -40,7 +40,7 @@ export default function Contact() {
               <h1 className="text-4xl font-bold text-white">Get in Touch</h1>
               <p className="mt-4 text-gray-300 max-w-lg">
                 Have questions about Luni or want to learn more about how we can help you manage your finances? 
-                We'd love to hear from you!
+                We&apos;d love to hear from you!
               </p>
               
               {formState.submitted ? (
@@ -52,7 +52,7 @@ export default function Contact() {
                     <h3 className="text-xl font-medium text-white">Message Sent!</h3>
                   </div>
                   <p className="mt-2 text-gray-300">
-                    Thank you for reaching out. We'll get back to you as soon as possible.
+                    Thank you for reaching out. We&apos;ll get back to you as soon as possible.
                   </p>
                   <button
                     className="mt-4 text-blue-400 hover:text-blue-300 font-medium"
