@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Luni.dev - Smart Budgeting for University Students
+
+Luni.dev is a modern financial management web application designed specifically for university students. The platform offers intuitive budgeting tools, expense tracking, and financial education resources to help students manage their money effectively.
+
+## Features
+
+- **Smart Budget Planning**: AI-powered budget recommendations based on student spending patterns
+- **Bill Splitting**: Easily track shared expenses with housemates
+- **Financial Education**: Learn money management with tutorials designed for students
+- **Expense Tracking**: Visualize your spending with automatic categorization
+- **Savings Goals**: Set and track progress towards financial goals
+- **Mobile-First Design**: Use on any device with a responsive interface
+
+## Tech Stack
+
+- **Framework**: Next.js with TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: Custom components with Framer Motion animations
+- **Charts**: Recharts for data visualization
+- **Deployment**: Vercel
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+   ```
+   git clone https://github.com/rorygeddes/luni.git
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+2. Install dependencies
+   ```
+   npm install
+   ```
+
+3. Run the development server
+   ```
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Project Structure
+
+```
+/src
+  /app - Next.js app router pages
+  /components - Reusable UI components
+  /lib - Utility functions and shared logic
+/public - Static assets including images
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The site is automatically deployed using Vercel integration with GitHub.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## About
 
-## Learn More
+Created by Rory Geddes. The application utilizes modern web development practices to deliver a seamless user experience focused on helping students develop good financial habits.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
