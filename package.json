@@ -17,6 +17,8 @@
     "react-dom": "^19.0.0",
     "recharts": "^2.15.2",
     "tailwindcss-animate": "^1.0.7",
+    "uuid": "^9.0.0",
+    "glob": "^10.3.10",
     "vercel": "^41.5.0"
   },
   "devDependencies": {
@@ -29,5 +31,10 @@
     "eslint-config-next": "15.2.4",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "overrides": {
+    "uuid": "^9.0.0",
+    "glob": "^10.3.10",
+    "inflight": "^2.0.0"
   }
 }
